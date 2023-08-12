@@ -1,8 +1,8 @@
 import requests
 import googlemaps
 
-api_key = 'AIzaSyD4I0zmGa0P0z2OnpaC7iUpikmDBWCwhIg'
-gmaps = googlemaps.Client(key='AIzaSyD4I0zmGa0P0z2OnpaC7iUpikmDBWCwhIg')
+api_key = ''
+gmaps = googlemaps.Client(key='')
 
 # sending get request and saving the response as response object
 r = requests.get(
